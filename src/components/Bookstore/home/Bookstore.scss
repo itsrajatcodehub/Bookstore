@@ -1,0 +1,24 @@
+.bookSection{
+    border: 1px solid red !important;
+    height: 100px !important;
+    display: flex !important;
+}
+
+.bookDetails{
+    display: flex;
+    flex-direction: column;
+    
+    .bookTitle{
+        overflow: hidden;
+    }
+
+    .bookAuthor{
+        text-align: end;
+    }
+}
+
+.bookCard{
+    height: 130px !important;
+}
+
+    
